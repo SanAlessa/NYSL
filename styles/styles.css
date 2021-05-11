@@ -1,0 +1,174 @@
+html * {
+  font-family: 'Mali', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+
+h1 {
+  font-size: 8.5vh;
+  font-style: italic;
+  margin-bottom: 5vh;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  height: 40vh;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-image: url("../assets/design2_image1.jpg");
+}
+
+nav { 
+  margin: -2.5vh 3vw 0vh 0vw;
+}
+
+nav a {
+  padding: 0.5vh 1vw;
+  margin-left: 2vw;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(4, 59, 238);
+  font-size: 2.2vh;
+  box-shadow: 0.5vw 0.5vh 1px black;
+  border: 0.2vw solid black;
+}
+
+nav a:hover {
+  background-color: green;
+}
+.actual {
+  background-color: green;
+}
+
+h2 {
+  border: 2.5px solid black ;
+  padding: 0.5vh 0vw;
+  text-align: center;
+  color: black;
+}
+
+/* GENERAL STYLES*/
+
+body {
+  height: 100%;
+  min-height: 100vh;
+}
+
+body {
+  background: #8BC6EC;
+  background: -webkit-linear-gradient(to left, #65a0c7, #9599E2 );
+  background: linear-gradient(to left, #65a0c7, #9599E2 );
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+p {
+  padding: 1vh 0vw 2vh 1vw;
+}
+
+h4.principal {
+text-align: center;
+}
+
+/* HOME PAGE */
+
+.date{
+  font-style: italic;
+}
+
+.container {
+  display: flex;
+  padding-top: 3vh;
+  width: 90vw;
+}
+
+.logo {
+  padding-left: 2vw;
+  width: 10vw;
+  min-width: 85px;
+}
+
+/* CONTACT PAGE */
+a.contact {
+  text-decoration: none;
+  color: rgb(4, 59, 238);
+  font-style: italic;
+}
+
+/* RULES PAGE */
+.pageContent {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5vw;
+}
+
+ol, li, ul {
+  padding-left: 1.5vw;
+  padding-bottom: 2vh;
+  padding-top: 1vh;
+} 
+
+.listAlpha {
+  list-style: lower-alpha;
+}
+
+li.square {
+  list-style: square;
+}
+li.circle {
+  list-style: circle;
+}
+
+/* CALENDAR PAGE */
+
+h5.gamesPlace {
+  font-style: italic;
+  text-decoration: underline;
+  padding-bottom: 2vh;
+}
+
+div.tableContainer {
+  display: flex;
+  flex-direction: column;
+}
+th, td {
+  border: 1px solid black;
+}
+
+.gameInfo {
+  padding-left: 4vw;
+}
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+}
+th {
+  padding: 1vh 0vw;
+}
+
+td.map {
+  width: 300px;
+}
+iframe {
+  width: 300px;
+  height: 100px;
+}
+
+div.infoPrincipal p, h5 {
+  padding-left: 0vw;
+  display: inline-block;
+}
+
+div.phoneEmail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

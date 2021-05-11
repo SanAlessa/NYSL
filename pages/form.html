@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link href="https://fonts.googleapis.com/css2?family=Mali&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/styles_form.css">
+  <link rel="icon" href="../assets/nyslico.ico" type="image/x-icon" />
+</head>
+<body>
+  <header>
+    <h1>Registration Form</h1>
+  </header>
+  <section>
+    <div class="contenedor">
+      <form>
+        <div class="form">
+          <div>
+            <label for="firstname">Player’s First Name:</label>
+            <input class="firstName" type="text" name="firstname" id="firstname">
+          </div>
+          <div>
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" id="lastname">
+          </div>
+        </div>
+        <div class="restForm">
+          <label for="address">Street Address:</label>
+          <input class="address" type="text" name="address" id="address">
+        </div>
+        <div class="form">
+          <div>
+            <label for="city">City:</label>
+            <input class="city" type="text" name="city" id="city">
+          </div>
+          <div>
+            <label for="zcode">Zip Code:</label>
+            <input type="text" name="zcode" id="zcode">
+          </div>
+        </div>
+        <div class="form">
+          <div>
+            <label for="birth">Birth Date(mm/dd/yyyy):</label>
+            <input type="date" name="birth" id="birth">
+          </div>
+          <div>
+            <div>
+              <label for="gender">Gender:</label>
+              <input type="radio" value="M" name="gender" id="gender">Female 
+              <input type="radio" value="F" name="gender" id="gender">Male
+            </div>
+          </div>
+        </div>
+        <div class="restForm">
+          <label for="grade">Grade:</label>
+          <input type="radio" value="pre" name="grade" id="grade">Pre-Grade
+          <input type="radio" value="1" name="grade" id="grade">1st
+          <input type="radio" value="2" name="grade" id="grade">2nd
+          <input type="radio" value="3" name="grade" id="grade">3rd
+          <input type="radio" value="4" name="grade" id="grade">4th
+          <input type="radio" value="5" name="grade" id="grade">5th
+        </div>
+        <div class="restForm">
+          <h3>Which elementary school do you live near?</h3>
+        </div>
+        <div>
+          <h4>Closest School:</h4>
+        </div>
+        <div class="formTwo">
+          <div>
+            <div>
+              <label for="school"></label>
+              <input type="checkbox" value="aj" name="school" id="school">AJ Katzenmaier
+            </div>
+            <div>
+              <input type="checkbox" value="gb" name="school" id="school">Greenbay
+            </div>
+            <div>
+              <input type="checkbox" value="hay" name="school" id="school">Howard A Yeager
+            </div>
+          </div>
+          <div class="restForm">
+            <div>
+              <input type="checkbox" value="mph" name="school" id="school">Marjorie P Hart
+            </div>
+            <div>
+              <input type="checkbox" value="ne" name="school" id="school">North Elementary
+            </div>
+            <div>
+              <input type="checkbox" value="se" name="school" id="school">South Elementary
+            </div>
+          </div>
+        </div>
+        <div>
+          <h4>What position(s) do you normally play? (check all that apply)</h4>
+        </div>
+        <div class="formTwo">
+          <div>
+            <div>
+              <input type="checkbox" value="fw" name="postiion" id="postiion">Forward
+            </div>
+            <div>
+              <input type="checkbox" value="df" name="postiion" id="postiion">Defense
+            </div>
+          </div>
+          <div class="restForm">
+            <div>
+              <input type="checkbox" value="md" name="postiion" id="postiion">Midfield
+            </div>
+            <div>
+              <input type="checkbox" value="gk" name="postiion" id="postiion">Goalkeeper
+            </div>
+          </div>
+        </div>
+        <div>
+          <h4>Uniform Size:</h4>
+        </div>
+        <div class="formTwo">
+          <div>
+            <div>
+              <label for="us"></label>
+              <input type="radio" value="ys" name="us" id="us">Youth Small
+            </div>
+            <div>
+              <input type="radio" value="ym" name="us" id="us">Youth Medium
+            </div>
+            <div>
+              <input type="radio" value="yl" name="us" id="us">Youth Large
+            </div>
+            <div>
+              <input type="radio" value="s" name="us" id="us">Small
+            </div>
+          </div>
+          <div>
+            <div>
+              <input type="radio" value="m" name="us" id="us">Medium
+            </div>
+            <div>
+              <input type="radio" value="l" name="us" id="us">Large
+            </div>
+            <div>
+              <input type="radio" value="xl" name="us" id="us">Extra-Large
+            </div>
+          </div>
+        </div>
+        <div class="restForm">
+          <h4>Permission to Play</h4>
+          <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers,including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the programand/orbeing transported to or from NYSL sponsored activities,which transportation.</p>
+          <p>By signing below, I herebyagree andauthorizethe above.In addition, by signing below, Ialso acknowledge that I have read the cancellation policy and agree to its terms.</p>
+          <div class="signature">
+            <label for="signature">Parent/GuardianSignature:</label>
+            <input type="text" name="signature" id="signature">
+            <label for="date">Date:</label>
+            <input type="date" name="date" id="date">
+          </div>
+        </div>
+      </form>
+    </div>
+    <nav>
+      <a href="../index.html">GO BACK HOME</a>
+    </nav>
+  </section>
+</body>
+</html>
